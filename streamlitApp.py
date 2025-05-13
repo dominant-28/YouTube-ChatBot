@@ -252,7 +252,7 @@ def main():
 if __name__ == "__main__":
 
     # Note: Replace with your actual Google API key securely
-    os.environ["GOOGLE_API_KEY"] = "AIzaSyBToCHAjcOL6ce2qdYfBmzXH6nJI7TOJnI"
+    os.environ["GOOGLE_API_KEY"] = "GOOGLE_APIKEY"
     main()
     
     st.markdown("""
