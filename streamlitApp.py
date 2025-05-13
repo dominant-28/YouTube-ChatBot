@@ -252,6 +252,7 @@ def main():
 if __name__ == "__main__":
 
     # Note: Replace with your actual Google API key securely
+    GOOGLE_APIKEY=st.secrets["API_KEY"]
     os.environ["GOOGLE_API_KEY"] = "GOOGLE_APIKEY"
     main()
     
